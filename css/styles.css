@@ -1,0 +1,11 @@
+.registration {
+  font-family: 'poppins', sans-serif;
+  text-align: center;
+}
+
+input {
+  border-radius: 50px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  box-shadow: inset 1px 1px 5px;
+}
