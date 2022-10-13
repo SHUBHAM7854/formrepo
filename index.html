@@ -13,20 +13,20 @@
 <body>
   <div class="registration">
     <h2><strong>Registration</strong></h2>
-    <form class="forms" action="index.html" method="post">
-      <label><strong>Full Name</strong></label>
+    <form id="forms" action="index.html" method="post">
+      <label for="fname"><strong>Full Name</strong></label>
       <br>
-      <input id="fname" type="text" name="name" value="" placeholder="Enter your name">
-      <br>
-      <br>
-      <label><strong>Email</strong></label>
-      <br>
-      <input id="email" type="email" name="email" value="" placeholder="Enter your email">
+      <input id="fname" type="text" name="name" placeholder="Shubham Murarka" autofocus autocomplete="off" required>
       <br>
       <br>
-      <label><strong>Phone Number</strong></label>
+      <label for="email"><strong>Email</strong></label>
       <br>
-      <input id="number" type="number" name="number" value=" " placeholder="Enter your number">
+      <input id="email" type="email" name="email" placeholder="xyz@example.com" autocomplete="off" required>
+      <br>
+      <br>
+      <label for="number"><strong>Phone Number</strong></label>
+      <br>
+      <input id="number" type="number" name="number" placeholder="+91XXXXXXXXXX" required>
       <br>
       <br>
       <input id="submit" type="submit">
